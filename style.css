@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.first-letter {
+	color: #4EB1BA;
+}
+
+/* header */
+header {
+	background-color: #222930;
+	height: 10vh;
+	border-bottom: 2px solid #4EB1BA;
+}
+
+header > nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+header > nav ul > li {
+	display: inline-block;
+	padding-top: 30px;
+}
+
+header > nav ul > li > a {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+header > nav ul > li a:hover {
+	background-color: #4EB1BA;
+	text-decoration: none;
+}
+
+.glyphicon {
+	color: white;
+	font-size: 50px;
+	padding: 20px;
+}
+
+.glyphicon:hover {
+	color: #4EB1BA;
+}
+/* Section jumbotron */
+
+.jumbotron {
+	background-color: #222930;
+	height: calc(100vh - 10vh);
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 300px;
+}
+
+
+.jumbotron h1, p {
+	color: #E9E9E9;
+	margin-top: 0;
+}
+
+.jumbotron h1 {
+	font-weight: bold;
+}
+
+.btn {
+	padding: 10px;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	color: #E9E9E9;
+	background-color: #222930;
+	border: 2px solid #4EB1BA;
+}
+
+.btn:hover {
+	background-color: #4EB1BA;
+}
+/* Section About  */
+.about {
+	background-color: #222930;
+}
+
+.about .container {
+	border-bottom: 2px solid #E9E9E9;
+	padding-bottom: 100px;
+}
+
+.about h2 {
+	color: #E9E9E9;
+	font-weight: bold;
+}
+
+.about p {
+	color: #E9E9E9;
+	font-size: 20px;
+	padding: 50px;
+	letter-spacing: 3px;
+}
+
+.about-me {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+/* Section Skills  */
+
+.skills {
+	background-color: #222930;
+	padding-top: 200px;
+
+}
+
+.skills .container {
+	border-bottom: 2px solid #E9E9E9;
+	padding-bottom: 200px;
+}
+
+.h-skill {
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 50px;
+	padding: 50px;
+}
+
+
+.skills h3 {
+	color: #E9E9E9;
+	font-weight: bold;
+}
+
+.skills p {
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #E9E9E9;
+}
+
+.skills .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skills .row i {
+	display: flex;
+	font-size: 100px;
+	color: #E9E9E9;
+	justify-content: center;
+  	align-items: center;
+  	padding: 50px;
+}
+
+.skills .row i:hover {
+	color: #4EB1BA;
+}
+
+/* works */
+
+.works {
+	background-color: #222930;
+	padding-top: 200px;
+}
+
+.works h4 {
+	color: #E9E9E9;
+	font-weight: bold;
+	padding: 100px;
+}
+
+.works .row {
+	display: flex;
+	justify-content: center;
+}
+
+.works .row img {
+	transition: width 4s;
+}
+
+.works .row img:hover {
+	height: 400px;
+	width: 400px;
+}
+.works .col-md-12 {
+
+}
+
