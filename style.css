@@ -105,7 +105,7 @@ header > nav ul > li a:hover {
 
 .about .container {
 	border-bottom: 2px solid #E9E9E9;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .about h2 {
@@ -130,13 +130,13 @@ header > nav ul > li a:hover {
 
 .skills {
 	background-color: #222930;
-	padding-top: 200px;
+	padding-top: 100px;
 
 }
 
 .skills .container {
 	border-bottom: 2px solid #E9E9E9;
-	padding-bottom: 200px;
+	padding-bottom: 50px;
 }
 
 .h-skill {
@@ -145,7 +145,6 @@ header > nav ul > li a:hover {
 	font-size: 50px;
 	padding: 50px;
 }
-
 
 .skills h3 {
 	color: #E9E9E9;
@@ -177,11 +176,25 @@ header > nav ul > li a:hover {
 	color: #4EB1BA;
 }
 
+.skills .col-md-12 h3 {
+	color: #4EB1BA;
+	text-align: center;
+	font-weight: bold;
+	padding: 50px;
+	font-size: 25px;
+}
+
 /* works */
 
 .works {
 	background-color: #222930;
-	padding-top: 200px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.works .container {
+	border-bottom: 2px solid #E9E9E9;
+	padding-bottom: 50px;
 }
 
 .works h4 {
@@ -193,6 +206,7 @@ header > nav ul > li a:hover {
 .works .row {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 50px;
 }
 
 .works .row img {
@@ -200,10 +214,71 @@ header > nav ul > li a:hover {
 }
 
 .works .row img:hover {
-	height: 400px;
-	width: 400px;
-}
-.works .col-md-12 {
-
+	height: 300px;
 }
 
+/* contact */
+
+.blue-contact {
+	background-color: #33cccc;
+	height: 120px;
+}
+
+.p-mail {
+	font-size: 35px;
+	padding-top: 30px;
+	color: #E9E9E9;
+}
+
+.blue-contact .col-md-4 {
+	padding-top: 25px;
+}
+
+.icon-btn {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #E9E9E9;
+	background-color: #33cccc;
+	color: #E9E9E9;
+	line-height: 70px;
+	margin-right: 20px;
+}
+
+.facebook, .github {
+	font-size: 35px;
+}
+
+.google-plus {
+	font-size: 30px;
+}
+
+.facebook:hover {
+	background-color: #134b4b;
+	border: 0;
+}
+
+.github:hover {
+	background-color: #134b4b;
+	border: 0;
+}
+
+.google-plus:hover {
+	background-color: #134b4b;
+	border: 0;
+}
+/* footer */
+
+.footer {
+	background-color: #222930;
+	height: 80px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.footer p {
+	color: #989ba0;
+	text-align: center;
+	padding-top: 30px;
+}
