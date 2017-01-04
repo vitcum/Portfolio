@@ -5,6 +5,10 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
+a:focus {
+	display: none;
+}
+
 * {
     box-sizing:border-box;
 }
@@ -30,8 +34,10 @@ header {
 	height: 10vh;
 }
 
-header img {
+header .logo {
 	margin-top: 15px;
+	width: 100px;
+	height: 80px;
 }
 
 header > nav ul {
@@ -46,7 +52,7 @@ header > nav ul > li {
 
 header > nav ul > li > a {
 	display: block;
-	color: #fff;
+	color: #E9E9E9;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding-right: 10px;
@@ -56,9 +62,8 @@ header > nav ul > li > a {
 }
 
 header > nav ul > li a:hover {
-	background-color: #4EB1BA;
+	color: #0de9fd;
 	text-decoration: none;
-	color: white;
 }
 
 .glyphicon {
@@ -80,8 +85,8 @@ header > nav ul > li a:hover {
 	padding-top: 300px;
 }
 
-
 .jumbotron h1, p {
+	padding: 20px;
 	color: #E9E9E9;
 	margin-top: 0;
 }
@@ -196,6 +201,7 @@ header > nav ul > li a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 20px;
 }
 
 .skills .row i {
@@ -235,7 +241,7 @@ header > nav ul > li a:hover {
 .works h4 {
 	color: #E9E9E9;
 	font-weight: bold;
-	padding: 100px;
+	padding: 50px;
 }
 
 .works .row {
@@ -243,6 +249,7 @@ header > nav ul > li a:hover {
 	justify-content: center;
 	padding-bottom: 50px;
 	text-align: center;
+	margin: 20px;
 }
 
 .works .row img {
@@ -250,6 +257,8 @@ header > nav ul > li a:hover {
     transition: all 0.6s ease;
     border: 3px solid #4EB1BA;
     margin-bottom: 20px;
+    width: 350px;
+    height: 250px;
 }
 .works .row img:hover {
 	-webkit-transform: scale(1.2);
