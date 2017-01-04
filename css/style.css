@@ -139,7 +139,7 @@ header > nav ul > li a:hover {
 
 .about .container {
 	border-bottom: 2px solid #E9E9E9;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 }
 
 .about h2 {
@@ -161,9 +161,8 @@ header > nav ul > li a:hover {
 }
 
 .about-img {
-	animation: 5s linear 2s infinite alternate;
+	height: 400px;
 }
-
 /* Section Skills  */
 
 .skills {
